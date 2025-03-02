@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ROYAL CARS - Employees Dashboard</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Include your CSS and JS files here -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="position-relative px-lg-5" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-uppercase text-primary mb-1">Royal Cars</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="employee_login.html" class="nav-item nav-link">Employee Login</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-uppercase text-white mb-3">Employees Dashboard</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
+            <h6 class="text-body m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-body m-0">Employees</h6>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Employees Dashboard Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5">Employees Dashboard</h1>
+
+            <!-- Users Management Section -->
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-uppercase mb-4">Users Management</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Full Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Address</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="users-table">
+                                <!-- Users data will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bookings Management Section -->
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-uppercase mb-4">Bookings Management</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>User ID</th>
+                                    <th>Car ID</th>
+                                    <th>Pickup Location</th>
+                                    <th>Pickup Date</th>
+                                    <th>Pickup Time</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bookings-table">
+                                <!-- Bookings data will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cars Management Section -->
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-uppercase mb-4">Cars Management</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Image</th>
+                                    <th>Year</th>
+                                    <th>Transmission</th>
+                                    <th>Mileage</th>
+                                    <th>Price</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cars-table">
+                                <!-- Cars data will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <button class="btn btn-primary mt-3" onclick="openAddCarModal()">Add Car</button>
+                </div>
+            </div>
+
+            <!-- Services Management Section -->
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-uppercase mb-4">Services Management</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Image</th>
+                                    <th>Year</th>
+                                    <th>Transmission</th>
+                                    <th>Mileage</th>
+                                    <th>Price</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="services-table">
+                                <!-- Services data will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <button class="btn btn-primary mt-3" onclick="openAddServiceModal()">Add Service</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Employees Dashboard End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-uppercase text-light mb-4">Get In Touch</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-white mr-3"></i>123 Street, New York, USA</p>
+                <p class="mb-2"><i class="fa fa-phone-alt text-white mr-3"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope text-white mr-3"></i>info@example.com</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        document.getElementById('profile-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const formData = new FormData();
+    formData.append('user_id', userId); // Ensure userId is defined
+    formData.append('name', document.getElementById('full_name').value || '');
+    formData.append('email', document.getElementById('email').value || '');
+    formData.append('bio', document.getElementById('bio').value || '');
+    formData.append('phone', document.getElementById('phone').value || '');
+    formData.append('address', document.getElementById('address').value || '');
+
+    // Append files only if they are selected
+    const profilePic = document.getElementById('profile_pic').files[0];
+    const coverPhoto = document.getElementById('cover_photo').files[0];
+    if (profilePic) formData.append('profile_picture', profilePic);
+    if (coverPhoto) formData.append('cover_photo', coverPhoto);
+
+    fetch('update_profile.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === 'success') {
+            alert('Profile updated successfully!');
+            window.location.reload(); // Refresh to show updated data
+        } else {
+            alert('Error: ' + data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again.');
+    });
+});
+        // Fetch and display users
+        function fetchUsers() {
+            $.ajax({
+                url: 'backend.php?action=fetch_users',
+                method: 'GET',
+                success: function(response) {
+                    const users = JSON.parse(response).users;
+                    let html = '';
+                    users.forEach(user => {
+                        html += `<tr>
+                                    <td>${user.id}</td>
+                                    <td>${user.full_name}</td>
+                                    <td>${user.email}</td>
+                                    <td>${user.phone}</td>
+                                    <td>${user.address}</td>
+                                    <td>
+                                        <button class='btn btn-danger' onclick='deleteUser(${user.id})'>Delete</button>
+                                    </td>
+                                 </tr>`;
+                    });
+                    $('#users-table').html(html);
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error fetching users:", error);
+                }
+            });
+        }
+
+        // Fetch and display bookings
+        function fetchBookings() {
+            $.ajax({
+                url: 'backend.php?action=fetch_bookings',
+                method: 'GET',
+                success: function(response) {
+                    const bookings = JSON.parse(response).bookings;
+                    let html = '';
+                    bookings.forEach(booking => {
+                        html += `<tr>
+                                    <td>${booking.id}</td>
+                                    <td>${booking.user_id}</td>
+                                    <td>${booking.car_id}</td>
+                                    <td>${booking.pickup_location}</td>
+                                    <td>${booking.pickup_date}</td>
+                                    <td>${booking.pickup_time}</td>
+                                    <td>${booking.test_drive_status}</td>
+                                    <td>
+                                        <button class='btn btn-success' onclick='approveBooking(${booking.id})'>Approve</button>
+                                        <button class='btn btn-danger' onclick='declineBooking(${booking.id})'>Decline</button>
+                                        <button class='btn btn-warning' onclick='rescheduleBooking(${booking.id})'>Reschedule</button>
+                                    </td>
+                                 </tr>`;
+                    });
+                    $('#bookings-table').html(html);
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error fetching bookings:", error);
+                }
+            });
+        }
+
+        // Fetch and display cars
+        function fetchCars() {
+            $.ajax({
+                url: 'backend.php?action=fetch_cars',
+                method: 'GET',
+                success: function(response) {
+                    const cars = JSON.parse(response).cars;
+                    let html = '';
+                    cars.forEach(car => {
+                        html += `<tr>
+                                    <td>${car.id}</td>
+                                    <td>${car.name}</td>
+                                    <td><img src='${car.image}' width='100'></td>
+                                    <td>${car.year}</td>
+                                    <td>${car.transmission}</td>
+                                    <td>${car.mileage}</td>
+                                    <td>${car.price}</td>
+                                    <td>
+                                        <button class='btn btn-danger' onclick='deleteCar(${car.id})'>Delete</button>
+                                        <button class='btn btn-warning' onclick='updateCar(${car.id})'>Update</button>
+                                    </td>
+                                 </tr>`;
+                    });
+                    $('#cars-table').html(html);
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error fetching cars:", error);
+                }
+            });
+        }
+
+        // Fetch and display services
+        function fetchServices() {
+            $.ajax({
+                url: 'backend.php?action=fetch_services',
+                method: 'GET',
+                success: function(response) {
+                    const services = JSON.parse(response).services;
+                    let html = '';
+                    services.forEach(service => {
+                        html += `<tr>
+                                    <td>${service.id}</td>
+                                    <td>${service.name}</td>
+                                    <td><img src='${service.image}' width='100'></td>
+                                    <td>${service.year}</td>
+                                    <td>${service.transmission}</td>
+                                    <td>${service.mileage}</td>
+                                    <td>${service.price}</td>
+                                    <td>
+                                        <button class='btn btn-danger' onclick='deleteService(${service.id})'>Delete</button>
+                                        <button class='btn btn-warning' onclick='updateService(${service.id})'>Update</button>
+                                    </td>
+                                 </tr>`;
+                    });
+                    $('#services-table').html(html);
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error fetching services:", error);
+                }
+            });
+        }
+
+        // Delete a user
+        function deleteUser(id) {
+            if (confirm("Are you sure you want to delete this user?")) {
+                $.ajax({
+                    url: 'backend.php',
+                    method: 'POST',
+                    data: { action: 'delete_user', id: id },
+                    success: function(response) {
+                        alert(response);
+                        fetchUsers(); // Refresh the table
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Error deleting user:", error);
+                    }
+                });
+            }
+        }
+
+        // Delete a car
+        function deleteCar(id) {
+            if (confirm("Are you sure you want to delete this car?")) {
+                $.ajax({
+                    url: 'backend.php',
+                    method: 'POST',
+                    data: { action: 'delete_car', id: id },
+                    success: function(response) {
+                        alert(response);
+                        fetchCars(); // Refresh the table
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Error deleting car:", error);
+                    }
+                });
+            }
+        }
+
+        // Delete a service
+        function deleteService(id) {
+            if (confirm("Are you sure you want to delete this service?")) {
+                $.ajax({
+                    url: 'backend.php',
+                    method: 'POST',
+                    data: { action: 'delete_service', id: id },
+                    success: function(response) {
+                        alert(response);
+                        fetchServices(); // Refresh the table
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Error deleting service:", error);
+                    }
+                });
+            }
+        }
+
+        // Update a car
+        function updateCar(id) {
+            const newName = prompt("Enter new name:");
+            const newImage = prompt("Enter new image URL:");
+            const newYear = prompt("Enter new year:");
+            const newTransmission = prompt("Enter new transmission:");
+            const newMileage = prompt("Enter new mileage:");
+            const newPrice = prompt("Enter new price:");
+
+            if (newName && newImage && newYear && newTransmission && newMileage && newPrice) {
+                $.ajax({
+                    url: 'backend.php',
+                    method: 'POST',
+                    data: {
+                        action: 'update_car',
+                        id: id,
+                        name: newName,
+                        image: newImage,
+                        year: newYear,
+                        transmission: newTransmission,
+                        mileage: newMileage,
+                        price: newPrice
+                    },
+                    success: function(response) {
+                        alert(response);
+                        fetchCars(); // Refresh the table
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Error updating car:", error);
+                    }
+                });
+            } else {
+                alert("All fields are required!");
+            }
+        }
+
+        // Approve a booking
+        function approveBooking(id) {
+            $.ajax({
+                url: 'backend.php',
+                method: 'POST',
+                data: { action: 'approve_booking', id: id },
+                success: function(response) {
+                    alert(response);
+                    fetchBookings(); // Refresh the table
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error approving booking:", error);
+                }
+            });
+        }
+
+        // Decline a booking
+        function declineBooking(id) {
+            $.ajax({
+                url: 'backend.php',
+                method: 'POST',
+                data: { action: 'decline_booking', id: id },
+                success: function(response) {
+                    alert(response);
+                    fetchBookings(); // Refresh the table
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error declining booking:", error);
+                }
+            });
+        }
+
+        // Reschedule a booking
+        function rescheduleBooking(id) {
+            const newDate = prompt("Enter new date (YYYY-MM-DD):");
+            const newTime = prompt("Enter new time (HH:MM):");
+            if (newDate && newTime) {
+                $.ajax({
+                    url: 'backend.php',
+                    method: 'POST',
+                    data: { action: 'reschedule_booking', id: id, newDate: newDate, newTime: newTime },
+                    success: function(response) {
+                        alert(response);
+                        fetchBookings(); // Refresh the table
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Error rescheduling booking:", error);
+                    }
+                });
+            }
+        }
+
+        // Fetch data on page load
+        $(document).ready(function() {
+            fetchUsers();
+            fetchBookings();
+            fetchCars();
+            fetchServices();
+        });
+    </script>
+</body>
+
+</html>

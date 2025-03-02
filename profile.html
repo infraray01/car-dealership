@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Same head content as your existing website -->
+    <meta charset="utf-8">
+    <title>ROYAL CARS - Profile</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom CSS for Profile Page -->
+    <style>
+        .booking-item {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+        .profile-cover {
+            
+            background: url('img/cover-photo.jpg') no-repeat center center/cover;
+            position: relative;
+            border-radius: 10px;
+            margin-bottom: 100px;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            position: absolute;
+            bottom: -75px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .profile-details {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .profile-details h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .profile-details p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .profile-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .profile-info h4 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .profile-info p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .profile-info .btn {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- Navbar Start -->
+<div class="container-fluid position-relative nav-bar p-0">
+    <div class="position-relative px-lg-5" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="" class="navbar-brand">
+                <h1 class="text-uppercase text-primary mb-1">Royal Cars</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Cars</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="car.html" class="dropdown-item">Car Listing</a>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="team.html" class="dropdown-item">The Team</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <!-- Dynamic Login/Signup or User Name -->
+                    <div class="nav-item dropdown" id="userDropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="userName">Login/Signup</a>
+                        <div class="dropdown-menu rounded-0 m-0" id="userMenu">
+                            <a href="login.html" class="dropdown-item">Login</a>
+                            <a href="signup.html" class="dropdown-item">Signup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+    <!-- Topbar Start -->
+    <!-- Same topbar content as your existing website -->
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <!-- Same navbar content as your existing website -->
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-uppercase text-white mb-3">Profile</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
+            <h6 class="text-body m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-body m-0">Profile</h6>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Profile Section Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="profile-cover">
+            <img id="profile-image" src="img/default-profile.jpg" alt="Profile Image" class="profile-image">
+        </div>
+
+        <div class="profile-details">
+            <h2 id="user-name">Loading...</h2>
+            <p id="user-info">Loading user info...</p>
+        </div>
+
+        <!-- Profile Info -->
+        <div class="profile-info">
+            <h4>About Me</h4>
+            <p><strong>Joined:</strong> <span id="created-at">Loading...</span></p>
+
+            <form id="profile-form">
+                <label>Full Name:</label>
+                <input type="text" id="full_name" class="form-control" disabled>
+
+                <label>Bio:</label>
+                <textarea id="bio" class="form-control" disabled></textarea>
+
+                <label>Email:</label>
+                <input type="email" id="email" class="form-control" disabled>
+
+                <label>Phone:</label>
+                <input type="text" id="phone" class="form-control" disabled>
+
+                <label>Address:</label>
+                <input type="text" id="address" class="form-control" disabled>
+
+                <div id="upload-section" style="display: none;">
+                    <label>Profile Picture:</label>
+                    <input type="file" name="profile_pic" id="profile_pic">
+                </div>
+
+                <button type="button" id="edit-btn" class="btn btn-warning">Edit Profile</button>
+                <button type="submit" id="save-btn" class="btn btn-success" style="display: none;">Save Changes</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const session_id = localStorage.getItem("session_id");
+    if (!session_id) {
+        alert("You need to log in first!");
+        window.location.href = "login.html";
+        return;
+    }
+
+    // Fetch user profile data
+    fetch(`profile.php?session_id=${session_id}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok: " + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("Profile Data:", data); // Debugging
+            if (data.status === "success") {
+                const user = data.data;
+                document.getElementById("user-name").innerText = user.full_name;
+                document.getElementById("user-info").innerText = `Car Enthusiast | Member Since ${user.created_at}`;
+                document.getElementById("full_name").value = user.full_name;
+                document.getElementById("bio").value = user.bio || "";
+                document.getElementById("email").value = user.email;
+                document.getElementById("phone").value = user.phone || "";
+                document.getElementById("address").value = user.address || "";
+                document.getElementById("created-at").innerText = user.created_at;
+
+                if (user.profile_pic) {
+                    document.getElementById("profile-image").src = user.profile_pic;
+                }
+            } else {
+                alert("Failed to load profile: " + data.message);
+            }
+        })
+        .catch(error => {
+            console.error("Error loading profile:", error);
+            alert("An error occurred while loading your profile. Please try again.");
+        });
+
+    // Fetch booking details
+    fetch(`get_user_bookings.php?session_id=${session_id}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok: " + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("Booking Data:", data); // Debugging
+            const bookingDetails = document.getElementById("booking-details");
+
+            if (data.status === "error" && data.message === "No bookings found") {
+                bookingDetails.innerHTML = "<p>No bookings found.</p>";
+                return;
+            }
+
+            if (Array.isArray(data)) {
+                data.forEach(booking => {
+                    const div = document.createElement("div");
+                    div.className = "booking-item";
+                    div.innerHTML = `
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="${booking.car_image}" class="img-fluid rounded-start" alt="${booking.car_name}">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">${booking.car_name}</h5>
+                                        <p class="card-text"><strong>Price:</strong> $${booking.car_price}/Day</p>
+                                        <p class="card-text"><strong>Pickup Location:</strong> ${booking.pickup_location}</p>
+                                        <p class="card-text"><strong>Pickup Date:</strong> ${booking.pickup_date}</p>
+                                        <p class="card-text"><strong>Pickup Time:</strong> ${booking.pickup_time}</p>
+                                        <p class="card-text"><strong>Payment Method:</strong> ${booking.payment_method}</p>
+                                        <p class="card-text"><strong>Test Drive Status:</strong> ${booking.test_drive_status}</p>
+                                        <p class="card-text"><strong>Additional Message:</strong> ${booking.additional_message || "None"}</p>
+                                        <button class="btn btn-danger delete-booking" data-booking-id="${booking.id}">Delete Booking</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    `;
+                    bookingDetails.appendChild(div);
+                });
+
+                // Add event listeners to delete buttons
+                document.querySelectorAll(".delete-booking").forEach(button => {
+                    button.addEventListener("click", function () {
+                        const bookingId = this.getAttribute("data-booking-id");
+                        deleteBooking(bookingId);
+                    });
+                });
+            } else {
+                bookingDetails.innerHTML = "<p>No bookings found.</p>";
+            }
+        })
+        .catch(error => {
+            console.error("Error fetching booking details:", error);
+            document.getElementById("booking-details").innerHTML = "<p>An error occurred while loading booking details.</p>";
+        });
+
+    // Function to delete a booking
+    function deleteBooking(bookingId) {
+        if (!confirm("Are you sure you want to delete this booking?")) {
+            return;
+        }
+
+        fetch(`delete_booking.php?booking_id=${bookingId}`, {
+            method: "DELETE"
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "success") {
+                alert("Booking deleted successfully!");
+                window.location.reload(); // Refresh the page to reflect the changes
+            } else {
+                alert("Failed to delete booking: " + data.message);
+            }
+        })
+        .catch(error => {
+            console.error("Error deleting booking:", error);
+            alert("An error occurred while deleting the booking. Please try again.");
+        });
+    }
+
+    // Edit Profile Feature
+    const editBtn = document.getElementById("edit-btn");
+    const saveBtn = document.getElementById("save-btn");
+    const uploadSection = document.getElementById("upload-section");
+    const inputs = document.querySelectorAll("#profile-form input, #profile-form textarea");
+
+    // Enable form fields when clicking "Edit Profile"
+    editBtn.addEventListener("click", function () {
+        inputs.forEach(input => input.disabled = false); // Enable all input fields
+        uploadSection.style.display = "block"; // Show profile picture upload section
+        editBtn.style.display = "none"; // Hide Edit button
+        saveBtn.style.display = "inline-block"; // Show Save button
+    });
+
+    // Handle profile form submission
+    document.getElementById("profile-form").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        const formData = new FormData(this);
+        formData.append("session_id", session_id); // Add session ID for authentication
+
+        fetch("update_profile.php", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "success") {
+                alert("Profile updated successfully!");
+                window.location.reload(); // Reload to show updated details
+            } else {
+                alert("Error updating profile: " + data.message);
+            }
+        })
+        .catch(error => {
+            console.error("Error updating profile:", error);
+            alert("An error occurred while updating your profile. Please try again.");
+        });
+    });
+
+    // Handle profile image preview before uploading
+    const profileImageInput = document.getElementById("profile-image");
+    const profileImagePreview = document.getElementById("profile-preview");
+
+    profileImageInput.addEventListener("change", function () {
+        const file = this.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                profileImagePreview.src = e.target.result; // Show preview of uploaded image
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+});
+
+</script>
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+    
+<!-- Add this section to your existing profile.html -->
+<h2>Booking Details</h2>
+<div id="booking-details">
+    <!-- Booking details will be populated by JavaScript -->
+</div></div></div>
+
+
+    <!-- Footer Start -->
+    <!-- Same footer content as your existing website -->
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+    <script>
+        fetch("http://localhost:8888/car_dealership/db_connect.php")
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error("Error:", error));
+        </script>
+</body>
+
+</html>

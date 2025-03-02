@@ -1,0 +1,650 @@
+Request received: {"user_id":"228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10","car_id":"2","pickup_location":"Location 2","pickup_date":"0004-05-04","pickup_time":"18:51","additional_message":"g","payment_method":"directcheck"}
+Extracted data: Array
+(
+    [user_id] => 228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10
+    [car_id] => 2
+    [pickup_location] => Location 2
+    [pickup_date] => 0004-05-04
+    [pickup_time] => 18:51
+    [additional_message] => g
+    [payment_method] => directcheck
+)
+
+Request received: {"user_id":"228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10","car_id":"2","pickup_location":"Location 2","pickup_date":"0004-05-04","pickup_time":"18:51","additional_message":"g","payment_method":"directcheck"}
+Extracted data: Array
+(
+    [user_id] => 228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10
+    [car_id] => 2
+    [pickup_location] => Location 2
+    [pickup_date] => 0004-05-04
+    [pickup_time] => 18:51
+    [additional_message] => g
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: {"user_id":"228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10","car_id":"2","pickup_location":"Location 2","pickup_date":"0004-05-04","pickup_time":"18:51","additional_message":"g","payment_method":"directcheck"}
+Extracted data: Array
+(
+    [user_id] => 228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10
+    [car_id] => 2
+    [pickup_location] => Location 2
+    [pickup_date] => 0004-05-04
+    [pickup_time] => 18:51
+    [additional_message] => g
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: {"user_id":"228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10","car_id":"2","pickup_location":"Location 2","pickup_date":"0004-05-04","pickup_time":"18:51","additional_message":"g","payment_method":"directcheck"}
+Extracted data: Array
+(
+    [user_id] => 228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10
+    [car_id] => 2
+    [pickup_location] => Location 2
+    [pickup_date] => 0004-05-04
+    [pickup_time] => 18:51
+    [additional_message] => g
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: {"user_id":"228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10","car_id":"2","pickup_location":"Location 2","pickup_date":"0004-05-04","pickup_time":"18:51","additional_message":"g","payment_method":"directcheck"}
+Extracted data: Array
+(
+    [user_id] => 228ec6a4462c3c947529085df9056cc8ff40805406537d22dda1bbbd6098ec10
+    [car_id] => 2
+    [pickup_location] => Location 2
+    [pickup_date] => 0004-05-04
+    [pickup_time] => 18:51
+    [additional_message] => g
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"user_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Location 2","pickup_date":"","pickup_time":"11:11","additional_message":"","payment_method":"paypal"}
+Received data: Array
+(
+    [user_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Location 2
+    [pickup_date] => 
+    [pickup_time] => 11:11
+    [additional_message] => 
+    [payment_method] => paypal
+)
+
+Request received: {"user_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Location 2","pickup_date":"1212-12-12","pickup_time":"11:11","additional_message":"v","payment_method":"paypal"}
+Received data: Array
+(
+    [user_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Location 2
+    [pickup_date] => 1212-12-12
+    [pickup_time] => 11:11
+    [additional_message] => v
+    [payment_method] => paypal
+)
+
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Pickup Location","pickup_date":"","pickup_time":"","additional_message":"","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Pickup Location
+    [pickup_date] => 
+    [pickup_time] => 
+    [additional_message] => 
+    [payment_method] => paypal
+)
+
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Pickup Location","pickup_date":"","pickup_time":"","additional_message":"","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Pickup Location
+    [pickup_date] => 
+    [pickup_time] => 
+    [additional_message] => 
+    [payment_method] => paypal
+)
+
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Pickup Location","pickup_date":"","pickup_time":"","additional_message":"","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Pickup Location
+    [pickup_date] => 
+    [pickup_time] => 
+    [additional_message] => 
+    [payment_method] => paypal
+)
+
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Location 2","pickup_date":"1922-11-11","pickup_time":"11:11","additional_message":"x","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Location 2
+    [pickup_date] => 1922-11-11
+    [pickup_time] => 11:11
+    [additional_message] => x
+    [payment_method] => paypal
+)
+
+Request received: 
+Request received: 
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Pickup Location","pickup_date":"","pickup_time":"","additional_message":"","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Pickup Location
+    [pickup_date] => 
+    [pickup_time] => 
+    [additional_message] => 
+    [payment_method] => paypal
+)
+
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Location 3","pickup_date":"0011-11-11","pickup_time":"11:11","additional_message":"11","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Location 3
+    [pickup_date] => 0011-11-11
+    [pickup_time] => 11:11
+    [additional_message] => 11
+    [payment_method] => paypal
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"5","pickup_location":"Location 1","pickup_date":"0001-11-11","pickup_time":"11:11","additional_message":"11","payment_method":"directcheck"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 5
+    [pickup_location] => Location 1
+    [pickup_date] => 0001-11-11
+    [pickup_time] => 11:11
+    [additional_message] => 11
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"3","pickup_location":"Location 1","pickup_date":"22222-11-22","pickup_time":"11:11","additional_message":"ddd","payment_method":"directcheck"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 3
+    [pickup_location] => Location 1
+    [pickup_date] => 22222-11-22
+    [pickup_time] => 11:11
+    [additional_message] => ddd
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: {"session_id":"bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce","car_id":"3","pickup_location":"Location 2","pickup_date":"2025-12-12","pickup_time":"11:11","additional_message":"as","payment_method":"directcheck"}
+Received data: Array
+(
+    [session_id] => bab5bf17ff9c21f5a3f09d5e0e0e6cec0afe145b3acdc069d8dbb407cb22efce
+    [car_id] => 3
+    [pickup_location] => Location 2
+    [pickup_date] => 2025-12-12
+    [pickup_time] => 11:11
+    [additional_message] => as
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"6c2f9a61d15c2719cbb537c9ff8dd6f265cf9f151b58fb544fefd444a12699d4","car_id":"2","pickup_location":"Location 1","pickup_date":"2025-12-12","pickup_time":"11:11","additional_message":"d","payment_method":"banktransfer"}
+Received data: Array
+(
+    [session_id] => 6c2f9a61d15c2719cbb537c9ff8dd6f265cf9f151b58fb544fefd444a12699d4
+    [car_id] => 2
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-12-12
+    [pickup_time] => 11:11
+    [additional_message] => d
+    [payment_method] => banktransfer
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"6c2f9a61d15c2719cbb537c9ff8dd6f265cf9f151b58fb544fefd444a12699d4","car_id":"2","pickup_location":"Location 1","pickup_date":"2015-12-12","pickup_time":"11:11","additional_message":"hello","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => 6c2f9a61d15c2719cbb537c9ff8dd6f265cf9f151b58fb544fefd444a12699d4
+    [car_id] => 2
+    [pickup_location] => Location 1
+    [pickup_date] => 2015-12-12
+    [pickup_time] => 11:11
+    [additional_message] => hello
+    [payment_method] => paypal
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"a29b2f96cf94e541e83d9fe4606d16a868f8652547bccd80ef09e5be113e3cf0","car_id":"5","pickup_location":"Location 2","pickup_date":"2025-11-11","pickup_time":"11:11","additional_message":"d","payment_method":"banktransfer"}
+Received data: Array
+(
+    [session_id] => a29b2f96cf94e541e83d9fe4606d16a868f8652547bccd80ef09e5be113e3cf0
+    [car_id] => 5
+    [pickup_location] => Location 2
+    [pickup_date] => 2025-11-11
+    [pickup_time] => 11:11
+    [additional_message] => d
+    [payment_method] => banktransfer
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"a29b2f96cf94e541e83d9fe4606d16a868f8652547bccd80ef09e5be113e3cf0","car_id":"1","pickup_location":"Location 1","pickup_date":"2025-11-11","pickup_time":"11:11","additional_message":"s","payment_method":"banktransfer"}
+Received data: Array
+(
+    [session_id] => a29b2f96cf94e541e83d9fe4606d16a868f8652547bccd80ef09e5be113e3cf0
+    [car_id] => 1
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-11-11
+    [pickup_time] => 11:11
+    [additional_message] => s
+    [payment_method] => banktransfer
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"56bde78f753151115663481521a1acb8e4d8002e32abba8d0df445d6dcf9b1bf","car_id":"2","pickup_location":"Location 1","pickup_date":"2025-11-11","pickup_time":"11:11","additional_message":"s","payment_method":"directcheck"}
+Received data: Array
+(
+    [session_id] => 56bde78f753151115663481521a1acb8e4d8002e32abba8d0df445d6dcf9b1bf
+    [car_id] => 2
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-11-11
+    [pickup_time] => 11:11
+    [additional_message] => s
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"56bde78f753151115663481521a1acb8e4d8002e32abba8d0df445d6dcf9b1bf","car_id":"4","pickup_location":"Location 1","pickup_date":"2025-11-11","pickup_time":"11:11","additional_message":"s","payment_method":"banktransfer"}
+Received data: Array
+(
+    [session_id] => 56bde78f753151115663481521a1acb8e4d8002e32abba8d0df445d6dcf9b1bf
+    [car_id] => 4
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-11-11
+    [pickup_time] => 11:11
+    [additional_message] => s
+    [payment_method] => banktransfer
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"56bde78f753151115663481521a1acb8e4d8002e32abba8d0df445d6dcf9b1bf","car_id":"4","pickup_location":"Location 2","pickup_date":"2025-11-11","pickup_time":"11:11","additional_message":"s","payment_method":"banktransfer"}
+Received data: Array
+(
+    [session_id] => 56bde78f753151115663481521a1acb8e4d8002e32abba8d0df445d6dcf9b1bf
+    [car_id] => 4
+    [pickup_location] => Location 2
+    [pickup_date] => 2025-11-11
+    [pickup_time] => 11:11
+    [additional_message] => s
+    [payment_method] => banktransfer
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"56bde78f753151115663481521a1acb8e4d8002e32abba8d0df445d6dcf9b1bf","car_id":"1","pickup_location":"Location 1","pickup_date":"2025-11-11","pickup_time":"11:11","additional_message":"ewtrer","payment_method":"banktransfer"}
+Received data: Array
+(
+    [session_id] => 56bde78f753151115663481521a1acb8e4d8002e32abba8d0df445d6dcf9b1bf
+    [car_id] => 1
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-11-11
+    [pickup_time] => 11:11
+    [additional_message] => ewtrer
+    [payment_method] => banktransfer
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"2feec3167ae25a54e28757139e85ae1638970a0c7e70222a99f1ddc3a07f3add","car_id":"2","pickup_location":"Location 1","pickup_date":"2025-12-12","pickup_time":"11:11","additional_message":"Air","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => 2feec3167ae25a54e28757139e85ae1638970a0c7e70222a99f1ddc3a07f3add
+    [car_id] => 2
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-12-12
+    [pickup_time] => 11:11
+    [additional_message] => Air
+    [payment_method] => paypal
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"2feec3167ae25a54e28757139e85ae1638970a0c7e70222a99f1ddc3a07f3add","car_id":"4","pickup_location":"Location 1","pickup_date":"2025-12-12","pickup_time":"11:11","additional_message":"dfd","payment_method":"directcheck"}
+Received data: Array
+(
+    [session_id] => 2feec3167ae25a54e28757139e85ae1638970a0c7e70222a99f1ddc3a07f3add
+    [car_id] => 4
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-12-12
+    [pickup_time] => 11:11
+    [additional_message] => dfd
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"aa254d5d89437a87b48ebc2788b99a1039b9bc5251cf209a230c942f81da443c","car_id":"1","pickup_location":"Location 1","pickup_date":"2025-12-12","pickup_time":"11:11","additional_message":"Air","payment_method":"directcheck"}
+Received data: Array
+(
+    [session_id] => aa254d5d89437a87b48ebc2788b99a1039b9bc5251cf209a230c942f81da443c
+    [car_id] => 1
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-12-12
+    [pickup_time] => 11:11
+    [additional_message] => Air
+    [payment_method] => directcheck
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"aa254d5d89437a87b48ebc2788b99a1039b9bc5251cf209a230c942f81da443c","car_id":"1","pickup_location":"Pickup Location","pickup_date":"","pickup_time":"","additional_message":"","payment_method":"paypal"}
+Received data: Array
+(
+    [session_id] => aa254d5d89437a87b48ebc2788b99a1039b9bc5251cf209a230c942f81da443c
+    [car_id] => 1
+    [pickup_location] => Pickup Location
+    [pickup_date] => 
+    [pickup_time] => 
+    [additional_message] => 
+    [payment_method] => paypal
+)
+
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: 
+Request received: {"session_id":"1c96712e4a02284452fa33eca0d49cae30bb6c7dace976b114602f9cfc48cba5","car_id":"2","pickup_location":"Location 1","pickup_date":"2025-11-11","pickup_time":"11:11","additional_message":"RAkuuu","payment_method":"banktransfer"}
+Received data: Array
+(
+    [session_id] => 1c96712e4a02284452fa33eca0d49cae30bb6c7dace976b114602f9cfc48cba5
+    [car_id] => 2
+    [pickup_location] => Location 1
+    [pickup_date] => 2025-11-11
+    [pickup_time] => 11:11
+    [additional_message] => RAkuuu
+    [payment_method] => banktransfer
+)
+
+Request received: 
+Request received: 
+Request received: 
